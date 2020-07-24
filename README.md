@@ -12,6 +12,8 @@ The tool generates 3D plots and 2D heatmaps for benchmark optimization problems/
 ## List of implemented problems
 
 * Ackley
+* Griewank
+* Holder-Table
 * Langermann
 * ModifiedLangermann
 * Rastrigin
