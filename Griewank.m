@@ -1,7 +1,7 @@
 classdef Griewank  < Problem
     properties(Constant)
-        LB = [-600 -600];
-        UB = [600 600];
+        LB = [-5 -5];
+        UB = [5 5];
     end
     methods
         function obj = Griewank()
