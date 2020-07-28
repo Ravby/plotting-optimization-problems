@@ -18,6 +18,7 @@ The tool generates 3D plots and 2D heatmaps for benchmark optimization problems/
 * ModifiedLangermann
 * Rastrigin
 * Schwefel
+* Simple2d
 * Easom
 * Sphere
 * Shubert
