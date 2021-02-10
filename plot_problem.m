@@ -44,12 +44,12 @@ else
 end
 mesh(X1, X2, F);view(90, -90);colorbar;set(gca,'FontSize',12);
 set(gcf, 'Position',  [300, 50, 1200, 900])
-xlabel('x_1','FontName','Helvetica','FontSize',20);
+xlabel('x_2','FontName','Helvetica','FontSize',20);
 set(get(gca,'xlabel'),'rotation',-90,'VerticalAlignment','middle');
-ylabel('x_2','FontName','Helvetica','FontSize',20);
+ylabel('x_1','FontName','Helvetica','FontSize',20);
 set(get(gca,'ylabel'),'VerticalAlignment','top');
 zlabel('f(X)','FontName','Helvetica','FontSize',20);
 %title(problem.problem_name,'FontName','Helvetica','FontSize',24,'FontWeight','bold');
 if(save)
-    saveas(problemHeatmapFig, 'images\'+problem.problem_name+'Heatmap.png','png');
+    saveas(problemHeatmapFig, 'images\'+problem.problem_name+'heatmap.png','png');
 end
